@@ -1,0 +1,20 @@
+{
+  "name": "backend-foundation",
+  "version": "1.0.0",
+  "description": "For producation level setup",
+  "homepage": "https://github.com/Bharath3312/backend-foundation#readme",
+  "bugs": {
+    "url": "https://github.com/Bharath3312/backend-foundation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bharath3312/backend-foundation.git"
+  },
+  "license": "ISC",
+  "author": "Bharath",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
