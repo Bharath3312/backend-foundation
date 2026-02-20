@@ -18,7 +18,14 @@
     "dist": "npx tsc",
     "dev": "nodemon src/server.ts",
     "start": "node dist/server.js",
+    "lint" : "eslint .",
+    "lint:fix" : "eslint . --fix",
     "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{ts,js}": [
+      "eslint --fix"
+    ]
   },
   "devDependencies": {
     "@commitlint/cli": "^20.4.2",
