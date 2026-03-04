@@ -26,7 +26,7 @@ export default [
 
             // General rules
             eqeqeq: ['error', 'always'],
-            semi: ['error', 'always'],
+            // semi: ['error', 'never'],
 
             'no-console': 'error'
         }

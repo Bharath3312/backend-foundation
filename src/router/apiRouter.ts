@@ -1,6 +1,8 @@
 import { Router } from 'express'
 
-const router = Router()
+import type { Router as ExpressRouter } from 'express'
+
+const router: ExpressRouter = Router()
 import apiController from '../controller/apiController.js'
 
 router.route('/self').get(apiController.self)
